@@ -1,0 +1,90 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "yellow"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francesca
+    last_name: Giovine
+
+    # Define yourself in 4-5 words
+    motto: Personable, innovative, Dreamer, Wonderlust
+
+    # focus
+    focus: LTrying to live life hehe
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I just like to have long walks with my dog Rania
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: francescagiovine@hotmail.com #
+    phone: 123 456 789 #
+    website:  #
+    linkedin: #
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this:
+    github: francescagiovine
+
+    twitter:  #
+    stack-overflow: #
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Advanced
+
+    # Interests or hobies
+    interests:
+      - item: Snorkeling
+
+      - item: Books
+
+      - item: Dogs
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2020 - Present
+      details: |
+        Learned the basics of coding with Html5 and Css.
+        Learned how to use coding social websites such as Github, Stack Overflow & Stack.
+        Built different projections as the lessons progressed with different programs.
+
+    - degree: Bachelor's in Business Administration
+      university: Universidad Rafael Urdaneta
+      time: Dont remember
+      details: Business
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Living
+      time: 1993 - Present
+      company: The world
+      details: Trying to be happy :)
+        
+   
+
+skills:
+    toolset:
+      - name: A little of everything with a little Youtube help
+        level: 100%
+
